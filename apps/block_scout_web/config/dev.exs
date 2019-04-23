@@ -11,8 +11,8 @@ config :block_scout_web, BlockScoutWeb.Endpoint,
   https: [
     port: 4001,
     cipher_suite: :strong,
-    certfile: System.get_env("CERTFILE") || "priv/cert/selfsigned.pem",
-    keyfile: System.get_env("KEYFILE") || "priv/cert/selfsigned_key.pem"
+    certfile: System.get_env("CERTFILE") || "priv/cert/fullchain.pem",
+    keyfile: System.get_env("KEYFILE") || "priv/cert/privkey.pem"
   ],
   debug_errors: true,
   code_reloader: true,
