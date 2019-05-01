@@ -3,7 +3,7 @@ defmodule BlockScoutWeb.LayoutView do
 
   alias Plug.Conn
 
-  @issue_url "https://github.com/petrichor-dev/blockscout/issues/new"
+  @issue_url "https://github.com/poanetwork/blockscout/issues/new"
 
   alias BlockScoutWeb.SocialMedia
 
