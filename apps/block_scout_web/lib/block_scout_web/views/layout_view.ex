@@ -12,11 +12,11 @@ defmodule BlockScoutWeb.LayoutView do
   end
 
   def logo do
-    Keyword.get(application_config(), :logo) || "/images/petrichor_logo.png"
+    Keyword.get(application_config(), :logo) || "/images/petrachor_logo.png"
   end
 
   def subnetwork_title do
-    Keyword.get(application_config(), :subnetwork) || "Petrichor"
+    Keyword.get(application_config(), :subnetwork) || "Petrachor"
   end
 
   def network_title do
